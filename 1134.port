@@ -1,0 +1,27 @@
+programa {
+	funcao inicio() {
+		inteiro codigo
+		inteiro alcool = 0, gasolina =0, diesel =0
+		
+		enquanto (verdadeiro){
+		    leia(codigo)
+		    
+		    se (codigo == 1){
+		        alcool = alcool + 1
+		    }
+		    senao se (codigo == 2){
+		        gasolina = gasolina + 1
+		    }
+		    senao se (codigo == 3){
+		        diesel = diesel + 1
+		    }
+		    senao se (codigo == 4){
+		        pare
+		    }
+		    escreva("muito obrigado! \n")
+		    escreva("alcool:", alcool, "\n")
+		    escreva("gasolina:", gasolina, "\n")
+		    escreva("diesel:", diesel, "\n")
+		}
+	}
+}
